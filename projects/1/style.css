@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  width: 600px;
+  height: 100vh;
+  background-color: aqua;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+#red {
+  background-color: red;
+}
+#green {
+  background-color: green;
+}
+#blue {
+  background-color: blue;
+}
+#pink {
+  background-color: pink;
+}

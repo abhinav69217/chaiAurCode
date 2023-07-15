@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(40, 142, 60, 0.925);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  justify-content: flex-start;
+}
+
+form {
+  margin-top: 15vh;
+  text-align: center;
+  font-size: 30px;
+  height: 170px;
+  width: 80%;
+}
+
+#guess,
+#submit {
+  padding: 7px 15px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 3vh;
+}
+
+#lowOrHigh {
+  text-align: center;
+  margin-top: 2vh;
+}
+
+p {
+  font-size: 18px;
+  line-height: 2.5rem;
+}

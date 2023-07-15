@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(40, 142, 60, 0.925);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#banner {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+#clock {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  padding: 10px 20px;
+  border: 2px solid black;
+  font-size: 20px;
+  border-radius: 10px;
+}
